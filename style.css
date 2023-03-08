@@ -1,0 +1,40 @@
+.submarine {
+    background-color: blue;
+}
+.croiseur {
+    background-color: red;
+}
+.content-game {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+table {
+    background-color: #ffffff;
+    width: 100%;
+}
+tr {
+    background-color: #f1f1f1;
+}
+td {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+td.clicked {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+
+.panel {
+    display: grid;
+}
+.ship {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
